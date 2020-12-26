@@ -1,0 +1,774 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+}
+
+/*adding css for column edit*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.columnone {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.columntwo {
+    float: left;
+    width: 52%;
+    padding: 0 10px;
+    margin-left: 358px;
+}
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+   .fishes
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+   .hearticonedit1 {
+    position: absolute;
+    top: 112px;
+    left: 945px;
+}
+   .iconarrowedit01 {
+    position: absolute;
+    top: 532px;
+    left: 609px;
+   } /* transform: rotate(60deg); */
+
+
+  .up
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+  .down {
+    position: absolute;
+    top: 108px;
+    left: 1327px;
+}
+ .iconarrowedit02 {
+    position: absolute;
+    top: 533px;
+    left: 992px;
+}
+.ram
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+  .shyma {
+    position: absolute;
+    top: 108px;
+    left: 1717px;
+}
+ .uanju {
+    position: absolute;
+    top: 526px;
+    left: 1374px;
+    /* transform: rotate(60deg); */
+}
+.fis
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+
+.hearticon5edit {
+    position: absolute;
+    top: 783px;
+    left: 950px;
+}
+.yourAp {
+    left: -145px;
+    position: relative;
+    top: -62px;
+}
+.vanju {
+    position: absolute;
+    top: 590px;
+    left: 1398px;
+    transform: rotate(60deg);
+}
+
+.hitt
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+   .hearticon7er {
+    position: absolute;
+       top: 781px;
+    left: 1330px;
+}
+.iconedit1 {
+    left: -143px;
+    position: relative;
+    top: -62px;
+}
+
+.jitt
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+.hearticonnEr {
+    position: absolute;
+       top: 782px;
+    left: 1717px;
+}
+.iconedit2 {
+    left: -146px;
+    position: relative;
+    top: -62px;
+}
+.ritt
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+  .heartIconEr2 {
+    position: absolute;
+       top: 1460px;
+    left: 948px;
+}
+.iconedit3{
+           left: -143px;
+    position: relative;
+    top: -62px;
+}
+.bitt
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+  .hearticoner3{
+    position: absolute;
+        top: 1459px;
+    left: 1332px;
+}
+.iconedit4{
+         left: -146px;
+    position: relative;
+    top: -62px;
+}
+.citt
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+  .hearticon20{
+    position: absolute;
+    top: 1464px;
+    left: 1718px;
+}
+.iconedit5{
+    left: -144px;
+    position: relative;
+    top: -62px;
+}
+.eitt
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+ .hearticonedit45 {
+    position: absolute;
+    top: 2137px;
+    left: 946px;
+}
+.iconedit6 {
+    left: -143px;
+    position: relative;
+       top: -55px;
+}
+.mitt
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+ .iconertedit {
+    position: absolute;
+    top: 2134px;
+    left: 1333px;
+}
+
+.iconedit7 {
+    left: -142px;
+    position: relative;
+    top: -56px;
+}
+.giit
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+  .iconedit34 {
+    position: absolute;
+        top: 2134px;
+    left: 1717px;
+}
+.iconedit8 {
+    left: -146px;
+    position: relative;
+    top: -58px;
+}
+.biot
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+.iconHeartY {
+    position: absolute;
+        top: 2811px;
+    left: 948px;
+}
+.iconedit9 {
+    left: -143px;
+    position: relative;
+    top: -62px;
+}
+.nag
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+.heartYuIcon29 {
+    position: absolute;
+      top: 2812px;
+    left: 1332px;
+}
+.iconedit10 {
+    left: -148px;
+    position: relative;
+    top: -62px;
+}
+.hyt
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+.iconHertIO {
+    position: absolute;
+   top: 2813px;
+    left: 1717px;
+}
+.iconedit11 {
+    left: -143px;
+    position: relative;
+    top: -62px;
+}
+.htk
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+.iconHrt21 {
+    position: absolute;
+        top: 3494px;
+    left: 949px;
+}
+.iconedit12 {
+    left: -144px;
+    position: relative;
+    top: -56px;
+}
+.xcv
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+.heartIconx {
+    position: absolute;
+   top: 3493px;
+    left: 1333px;
+}
+.iconedit13 {
+    left: -148px;
+    position: relative;
+    top: -55px;
+}
+.max
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+
+
+.heartIconx1{
+    position: absolute;
+      top: 3492px;
+    left: 1716px;
+}
+.iconedit14 {
+    left: -144px;
+    position: relative;
+    top: -56px;
+}
+
+.aut
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+.stylistheartIcon {
+    position: absolute;
+       top: 4169px;
+    left: 950px;
+}
+.iconedit15 {
+    left: -145px;
+    position: relative;
+    top: -56px;
+}
+.yuo
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+.iconpushright1 {
+    position: absolute;
+        top: 4168px;
+    left: 1333px;
+}
+.iconedit16 {
+    left: -145px;
+    position: relative;
+    top: -56px;
+}
+.myp
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+.iconHeartLast {
+    position: absolute;
+       top: 4171px;
+    left: 1715px;
+}
+.iconedit17 {
+    left: -145px;
+    position: relative;
+    top: -56px;
+}
+.jkl{
+	padding: 10px 10px 10px -2px;
+}
+img.sfi {
+    margin-left: -269px;
+    }
+   .changefont {
+    margin: -177px 10px 10px 150px;
+    text-align: start;
+    font-size: 14px;
+}
+  .picturestyle{
+    margin-left: -269px;
+  }
+  .changefont1 {
+    margin: -181px 10px 10px 150px;
+    text-align: start;
+        font-size: 14px;
+}
+.changefont2 {
+    margin: -180px 10px 10px 150px;
+    text-align: start;
+        font-size: 14px;
+}
+img.picturestyle1 {
+    margin-left: -273px;
+}
+img.picturestyle2 {
+    margin-left: -275px;
+    width: 31%;
+}
+
+
+.changefont3 {
+    text-align: start;
+    margin: -179px 46px 10px 150px;
+        font-size: 14px;
+}
+.picturestyle70{
+  margin-left: -269px;
+}
+.changecolor1{
+   text-align: start;
+    margin: -182px 46px 10px 150px;
+        font-size: 14px;
+}
+#showmore {
+    font-size: small;
+    font-weight: bolder;
+    color: cornflowerblue;
+    text-align: center;
+   margin-bottom:  -194px;
+}
+.iconbaredit1{
+       position: relative;
+    top: -47px;
+       right: -169px;
+    background-color: black;
+}
+.iconbaredit2 {
+    position: relative;
+    top: -44px;
+    right: -167px;
+    background-color: black;
+}
+.iconbaredit3{
+       position: relative;
+    top: -46px;
+    right: -166px;
+    background-color: black;
+}
+.iconbaredit4 {
+    position: relative;
+    top: -63px;
+    right: -141px;
+    background-color: black;
+}
+.iconbaredit5 {
+    position: relative;
+    top: -63px;
+    right: -137px;
+    background-color: black;
+}
+.iconbaredit6 {
+    position: relative;
+    top: -62px;
+    right: -140px;
+    background-color: black;
+}
+.iconbaredit7 {
+    position: relative;
+    top: -63px;
+        right: -138px;
+    background-color: black;
+}
+.iconbaredit8 {
+    position: relative;
+    top: -64px;
+    right: -138px;
+    background-color: black;
+}
+.iconbaredit9 {
+    position: relative;
+    top: -63px;
+    right: -138px;
+    background-color: black;
+}
+.iconbaredit10 {
+    position: relative;
+    top: -62px;
+    right: -138px;
+    background-color: black;
+}
+.iconbaredit11 {
+    position: relative;
+    top: -63px;
+    right: -139px;
+    background-color: black;
+}
+.iconbaredit12 {
+    position: relative;
+    top: -63px;
+    right: -140px;
+    background-color: black;
+}
+.iconbaredit13 {
+    position: relative;
+    top: -63px;
+    right: -140px;
+    background-color: black;
+}
+.iconbaredit14 {
+    position: relative;
+    top: -63px;
+    right: -139px;
+    background-color: black;
+}
+.iconbaredit15 {
+    position: relative;
+    top: -63px;
+    right: -140px;
+    background-color: black;
+}
+.iconbaredit16 {
+    position: relative;
+    top: -63px;
+    right: -140px;
+    background-color: black;
+}
+.iconbaredit17 {
+    position: relative;
+    top: -63px;
+    right: -139px;
+    background-color: black;
+}
+.iconbaredit18 {
+    position: relative;
+    top: -63px;
+    right: -140px;
+    background-color: black;
+}
+.iconbaredit19{
+   position: relative;
+    top: -63px;
+    right: -141px;
+    background-color: black;
+}
+.iconbaredit20 {
+    position: relative;
+    top: -63px;
+    right: -141px;
+    background-color: black;
+}
+.awesomechange1{
+    text-align: start;
+    margin: -46px 0px 0px -3px;
+    font-size: 14px;
+
+}
+.awesomechange2{
+text-align: start;
+    margin: -46px 0px 0px -3px;
+    font-size: 14px;
+}
+.awesomechange3{
+  text-align: start;
+    margin: -46px 0px 0px -3px;
+    font-size: 14px;
+}
+.awesomechange4 {
+    text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+}
+.awesomechange5{
+text-align: start;
+       margin: -69px 0px 0px -3px;
+    font-size: 14px;
+}
+.awesomechange6{
+text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+}
+
+.awesomechange7{
+text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+}
+.awesomechange8{
+text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+}
+
+.awesomechange9{
+text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+}
+.awesomechange10{
+text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+}
+.awesomechange11{
+text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+}
+.awesomechange12{
+  text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+}
+.awesomechange13{
+  text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+}
+
+.awesomechange14{
+   text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+
+}
+.awesomechange15{
+   text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+
+}
+
+.awesomechange16{
+   text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+
+}
+
+.awesomechange17{
+   text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+
+}
+.awesomechange18{
+  text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+}
+.awesomechange19{
+  text-align: start;
+    margin: -69px 0px 0px -3px;
+    font-size: 14px;
+  }
+  #designcard01 {
+    margin-left: -237px;
+    margin-top: 10px;
+    background-color: white;
+}
+#designcard02 {
+    margin-left: -237px;
+    margin-top: -2px;
+     background-color: white;
+}
+#designcard03{
+margin-left: -237px;
+    margin-top: -2px;
+    background-color: white;
+}
+#designcard04{
+  margin-left: -237px;
+    margin-top: -2px;
+      background-color: white;
+}
+#designcard05{
+  margin-left: -237px;
+    margin-top: -2px;
+     background-color: white;
+}
+#designcard06{
+  margin-left: -237px;
+    margin-top: -2px;
+     background-color: white;
+}
+#designcard07{
+  margin-left: -237px;
+    margin-top: -2px;
+     background-color: white;
+}
+#cardcolorID1{
+    background-color: #fefaf7;
+}
+#cardcolorID2{
+    background-color: #fefaf7;
+}
+
+#cardcolorID3{
+    background-color: #fefaf7;
+}
+
+#cardcolorID4{
+    background-color: #fefaf7;
+}
+
+#cardcolorID5 {
+    background-color: #fefaf7;
+    margin-bottom: 28px;
+    padding-bottom: 31px;
+}
+
+.uio {
+    margin: -3349px 20px 40px -676px;
+}
+  /*  #hertyy {
+    margin: -3222px 480px -317px -757px;
+    background-color: white;
+   
+
+}*/
+.card1{
+padding: 10px 10px 10px 10px;
+   border: 1px solid beige;
+}
+.paragrapg{
+  padding: 68px 30px 100px 21px;margin: 152px 45px -69px 48px;
+}
+div#hertyy {
+    margin: -3249px 486px 123px -752px;
+    background-color: white;
+}

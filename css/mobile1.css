@@ -1,0 +1,111 @@
+body{
+    background-color: #fdf0e7 !important;
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.col-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    max-width: 87%;
+    margin-left: 25px;
+    margin-top: 9px;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#cardDesrr {
+       width: 74%;
+    margin-left: 0px;
+    padding: 1px 18px 0px 57px;
+    
+    
+
+}
+.col-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  img.callbuttonedit {
+    padding: 10px 6px 3px 4px;
+    margin: 3px 3px 5px -24px;
+}
+.headerstyle01{
+    margin: 6px 12px 11px 4px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .paragraph009{
+    font-size: 15px;
+    font-weight: 500;
+    color: grey;
+}
+img.emailbox {
+    margin: 14px 11px 1px -21px;
+    padding: -2px 2px 8px 3px;
+}
+.bclass{
+    font-size: 16px;
+    font-weight: bolder;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  #cardDesrr {
+    width: 74%;
+    margin-left: 0px;
+    padding: 3px 18px 0px 145px;
+}
+img.callbuttonedit {
+       padding: 12px 9px 6px 4px;
+    margin: 0px 1px 6px -115px;
+}
+img.emailbox {
+   margin: 13px 4px 0px -117px;
+    padding: -2px 2px 8px 3px;
+}
+   .card{
+
+     margin-left: 24px;
+    margin-right: -24px;
+}
+}
